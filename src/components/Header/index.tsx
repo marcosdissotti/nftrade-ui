@@ -1,6 +1,5 @@
-import { FaBars } from "react-icons/fa";
-
 import * as S from "./styles";
+import { FaBars } from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -14,7 +13,10 @@ const Header = () => {
         <span>Sua Arte Digital</span>
       </S.Slogan>
 
-      <input></input>
+      <S.Search>
+        <S.FaSearch size={28} color="#555555" />
+        <input placeholder="Pesquisar artes" />
+      </S.Search>
     </S.Container>
   );
 };

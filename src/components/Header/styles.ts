@@ -1,8 +1,10 @@
 import styled from "styled-components";
+import { FaSearch as FaSearchComponent } from "react-icons/fa";
 
 export const Container = styled.div`
   width: 100%;
   height: 16rem;
+  margin-bottom: 3.2rem;
 
   h1 {
     font-weight: 300;
@@ -47,4 +49,40 @@ export const Slogan = styled.div`
     text-align: center;
     letter-spacing: 1px;
   }
+`;
+
+export const Search = styled.div`
+  width: 100%;
+  height: 40px;
+  margin-top: 22px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 8px;
+  background: #f0f0f0;
+
+  input {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+
+    background: #f0f0f0;
+
+    &::placeholder {
+      padding: 12px 18px 12px 12px;
+
+      color: #888888;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 2rem;
+    }
+  }
+`;
+
+export const FaSearch = styled(FaSearchComponent)`
+  padding-left: 1.2rem;
+
+  background: none;
 `;

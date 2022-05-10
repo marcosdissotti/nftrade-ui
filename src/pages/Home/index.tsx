@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import { Header } from "../../components";
 import * as S from "./styles";
 
 const Home = () => {
