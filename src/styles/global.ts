@@ -10,8 +10,7 @@ const GlobalStyles = createGlobalStyle`
     
     font-size: 10px;
     text-decoration: none;
-    /* background-color: #f8f8f8; */
-    background-color: blue;
+    background-color: #f8f8f8;
     font-family: 'Manrope', sans-serif;
   }
 
