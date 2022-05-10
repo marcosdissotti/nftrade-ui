@@ -1,6 +1,6 @@
-import { Card, Header } from "../../components";
+import { Header, Card } from "../../components";
+import Molao from "../../assets/molao.png";
 import * as S from "./styles";
-// import molao from "../../assets/molao.png";
 
 const Home = () => {
   return (
@@ -8,18 +8,10 @@ const Home = () => {
       <Header />
 
       <main>
-        <Card
-          src={require("http://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png")}
-        />
-        <Card
-          src={require("http://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png")}
-        />
-        <Card
-          src={require("http://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png")}
-        />
-        <Card
-          src={require("http://cbissn.ibict.br/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png")}
-        />
+        <Card src={Molao} />
+        <Card src={Molao} />
+        <Card src={Molao} />
+        <Card src={Molao} />
       </main>
     </S.Container>
   );

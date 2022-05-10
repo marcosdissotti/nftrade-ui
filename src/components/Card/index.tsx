@@ -1,8 +1,8 @@
 import * as S from "./styles";
 
-const Card = (src: any) => {
-  console.log("src", src);
-  return <S.Container src={src}></S.Container>;
+const Card = (props: any) => {
+  console.log("src", props.src);
+  return <S.Container src={props.src} alt="test"></S.Container>;
 };
 
 export default Card;
