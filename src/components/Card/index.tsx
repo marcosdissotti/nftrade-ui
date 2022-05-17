@@ -9,8 +9,8 @@ const Card = (props: any) => {
       <div className="ethereum-wrapper">
         <EthereumIcon />
         <div className="price-wrapper">
-          <span>1.0003 ETH</span>
-          <p>R$ 2,683.73</p>
+          <span>1.0003</span>
+          <p>R$ 12.110,91</p>
         </div>
       </div>
     </S.Container>

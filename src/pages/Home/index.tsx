@@ -12,6 +12,8 @@ const Home = () => {
         <Card src={Molao} />
         <Card src={Molao} />
         <Card src={Molao} />
+        <Card src={Molao} />
+        <Card src={Molao} />
       </main>
     </S.Container>
   );
