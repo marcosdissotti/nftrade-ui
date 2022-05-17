@@ -8,10 +8,11 @@ export const Container = styled.div`
 
 
   main {
+    max-width: 100%;
     padding-top: 32px;
+
+    gap: 8px;
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 8px;
-
   }
 `;
