@@ -6,10 +6,12 @@ export const Container = styled.div`
 
   padding: 0 1.6rem;
 
+
   main {
     padding-top: 32px;
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 8px;
+
   }
 `;

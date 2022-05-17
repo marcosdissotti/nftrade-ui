@@ -25,11 +25,13 @@ export const Main = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 `;
 
 export const Slogan = styled.div`
   display: flex;
   flex-direction: column;
+
 
   h2 {
     margin-bottom: 4px;
