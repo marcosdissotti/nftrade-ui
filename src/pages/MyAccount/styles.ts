@@ -3,8 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100vw;
     height: 100vh;
-    font-family: 'Manrope';
-   
+    font-family: 'Arial';
     
     .my-info {
         display: grid;
@@ -12,7 +11,6 @@ export const Container = styled.div`
         align-items: center;
         justify-items: center;
         max-height: 100%;
-
    }
 
     .my-info > img{
@@ -23,42 +21,96 @@ export const Container = styled.div`
    }
 
    .my-info > h2 {
-       font-size: 20px;
-       font-weight: bold;
-       background: none;
-       margin-bottom: 10px;
+        width: 147px;
+        height: 28px;
+        left: 114px;
+        top: 211px;
+       
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+       
+        letter-spacing: 0.75px;
+       
+        color: #000000;
    }
 
    .edit-profile {
-       display: grid;
-       flex-wrap: wrap;
-       justify-items: flex-start;
-       justify-content: space-around;
+        display: grid;
+        flex-wrap: wrap;
+        justify-items: flex-start;
+        justify-content: space-around;
+
+        background-color: rebeccapurple;
    }
 
    .edit-profile > p {
-       font-size: 18px;
-       margin: 5px;
-       background: none;
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        margin-top: 10%;
+
+        align-items: center;
+        display: flex;
+
+        color: #333333;
    }
 
    .edit-profile > input {
-       width: 340px; 
-       line-height: 30px;
-       margin: 5px;
-       font-size: 16px;
+        height: 56.62px;
+        width: 340px;
+        top: 181px;
+        left: 18px;
+        font-size: 16px;
+        border-radius: 8px;
+
+        padding-left: 5%;
+        bottom: 1.1%;
+
+        background: #F0F0F0;
+        border-radius: 8px;
    }
 
+   input::placeholder{
+       height: 24px;
+       font-family: 'Arial';
+       font-weight: 500;
+       font-size: 16px;
+       line-height: 24px;
+       
+       display: flex;
+       align-items: center;
+       letter-spacing: 0.01em;
+       
+       color: #555555;
+}
+
    .edit-profile > #btnSaveEdit {
-        margin: 5px;
-        height: 50px;
-        width: 280px;
-        color: #ffffff;
-        font-size: 20px;
-        font-weight: bold;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        
+        height: 56px;
+        left: 5.33%;
+        right: 3.2%;
+        top: calc(50% - 56px/2 + 353.5px);
+        
+        background: linear-gradient(114.44deg, #0038F5 0%, #9F03FF 100%);
         border-radius: 8px;
-        margin: 10%;
-        background: linear-gradient(#0038F5, #9F03FF);
+        color: #FCFCFC;
+
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+
+        position: fixed;
    }
 `;
 

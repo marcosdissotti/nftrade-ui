@@ -1,6 +1,6 @@
 import * as S from './styles';
 // import { Header } from '../../components';
-// import foto from '../../assets/profile-photo.jpg';
+import foto from '../../assets/profile-photo.jpg';
 
 const MyAccount = () => {
     return (
@@ -8,7 +8,7 @@ const MyAccount = () => {
         {/* <Header/> */}
         <div className="my-info">
             {/* <img src="https://lh3.googleusercontent.com/a-/AOh14GjkiXtkGu8I4L-1T1r703nidWTOvrTGpJXZwR31lg=s317-p-rw-no" alt="login-photo" /> */}
-            {/* <img src={foto} alt="foto-perfil"/> */}
+            <img src={foto} alt="foto-perfil"/>
 
             <h2> Thiago Martins </h2>
             
