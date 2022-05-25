@@ -16,17 +16,17 @@ const Register = () => {
                 <p>Senha: </p>
                 <input type="password" placeholder='Digite sua Senha' />
 
-                <p>Upload da foto de Perfil.</p>
-                <label htmlFor="filePhoto">
-                    <TiImageOutline/>
-                    Arraste e solte ou encontre um arquivo 
+                <p>Upload da foto de Perfil: </p>
+                
+                <label className='label-upload-perfil' htmlFor="file-photo">
+                    <TiImageOutline />
+                    Arraste e solte ou encontre um arquivo
                     <p>Tamanho recomendado: JPG, PNG, GIF  (1500x1500px, Max 10mb)</p>
-                    </label>
-                <input type="file" name="filePhoto" accept="image/*" id="filePhoto" ></input>
+                </label>
+                <input type="file" id="file-photo" accept="image/*"></input>
 
                 <input type="button" className="button-register" value="Salvar"></input>
             </div>
-
         </S.Container>
     );
 }
